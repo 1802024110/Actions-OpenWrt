@@ -19,8 +19,6 @@
 
 sudo apt-get update 
 
-sudo apt install libfuse3-dev
-sudo apt-get install libbz2-dev
 sed -i '$a src-git kenzo https://github.com/kenzok8/openwrt-packages' feeds.conf.default
 sed -i '$a src-git small https://github.com/kenzok8/small' feeds.conf.default
 git pull
